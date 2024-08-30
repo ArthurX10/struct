@@ -110,7 +110,39 @@ void troca(int *x, int *y)
 	*x = *y;
 	*y = aux;
 	
+}  
+
+7 codigo 
+aritimetrica de ponteiros 
+#include<stdio.h>
+
+//aritmetica de ponteira
+void main()
+{
+	int t;
+	for(t=0; *(p+t); t++)
+		putchar(*(p+t));
+		
 }
+void main()
+{
+	char nome[] = "arthur";
+	
+}
+
+8 codigo #include<stdio.h>
+
+void main()
+{
+	char *P, arr[] = "exemplo";
+	p = &arr;
+	
+	printf("%c %c\n", arr[3], *(p +3));
+	
+}
+
+
+
 
 
 
