@@ -12,11 +12,11 @@ int main(){
     struct Pessoa pessoa1; 
     
     printf("Digite seu nome: ");
-    scanf(" %s", pessoa1.nome);
+    scanf(" %[^\n]", pessoa1.nome);
     printf("Digite sua idade: ");
     scanf("%d", &pessoa1.idade);
     printf("Digite seu endereco: ");
-    scanf(" %s", pessoa1.endereco);
+    scanf(" %[^\n]", pessoa1.endereco);
     
     
      printf("\nDados da Pessoa:\n");
